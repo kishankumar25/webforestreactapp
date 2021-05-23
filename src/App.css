@@ -27,6 +27,139 @@
 .App-link {
   color: #61dafb;
 }
+html {
+  box-sizing: border-box;
+}
+*, *:before, *:after {
+  box-sizing: inherit;
+}
+
+label {
+  display: flex;
+  align-items: center;
+  margin-bottom: 1rem;
+  font-size: 13px;
+  color: gray;
+}
+
+input[type="text"], input[type="password"] {
+  width: 100%;
+  background-color: lightgrey;
+  border: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+.css_class{
+  width: 100%;
+  background-color: lightgrey;
+  border: 0;
+  padding: 1rem;
+  margin-bottom: 1rem;
+}
+
+
+input[type="checkbox"] {
+  margin-right: 10px;
+}
+
+input[type="submit"] {
+  margin-top: 10px;
+}
+
+html {
+/*   background-color: lightblue; */
+  padding: 50px;
+}
+
+.form_css {
+  font-family:Arial;
+  width: 500px;
+  margin: 0 auto;
+  background-color: white;
+  padding: 2rem;
+  box-shadow: 0px 2px 5px 0px rgba(0,0,0,0.25);
+  border-top: 5px solid steelblue;
+}
+
+.myButton {
+  border: 0;
+	background-color:#eb675e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+}
+.signup{
+   border: 0;
+	background-color:#eb675e;
+	display:inline-block;
+	cursor:pointer;
+	color:#ffffff;
+	font-size:15px;
+	padding:10px 20px;
+	text-decoration:none;
+  margin-top: 39px;
+}
+body {
+  font-family: "Quicksand", sans-serif;
+  display: flex;
+  justify-content: center;
+  padding: 0;
+  color: #4d4d4d;
+}
+
+#title {
+  text-align: center;
+  margin-top: -48px;
+  background-color: black;
+  color: white;
+
+}
+
+#employee {
+  border-collapse: collapse;
+  border: 3px solid #ddd;
+}
+
+#employee td,
+#employee th {
+  border: 1px solid #ddd;
+  padding: 12px;
+}
+
+#employee tr:hover {
+  background-color: #ddd;
+}
+
+#employee th {
+  padding: 7px;
+  text-align: center;
+  background-color: white;
+  color: black;
+}
+
+.opration {
+  text-align: center;
+}
+
+.button {
+  border: none;
+  outline: none;
+  font-size: 11px;
+  font-family: "Quicksand", sans-serif;
+  color: #f44336;
+  padding: 3px 10px;
+  border-radius: 8px;
+  cursor: pointer;
+  border: 1px solid #f44336;
+  background-color: transparent;
+}
+
+.button:active {
+  border: 1px solid blue;
+}
 
 @keyframes App-logo-spin {
   from {
@@ -36,3 +169,26 @@
     transform: rotate(360deg);
   }
 }
+
+
+
+
+.log_out{
+  font-size: 25px;
+  color: black;
+}
+
+#search_keyword{
+  width: 35%;
+  background-color: white;
+  padding: 0.5rem;
+  margin-bottom: 1rem;
+  border-style: solid !important;
+  margin-top: 15px;
+  margin-right: 1244px;
+ border:1px;
+ margin-left: 711px;
+}
+
+
+
